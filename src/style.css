@@ -44,7 +44,10 @@ body {
   .footer {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(45deg, #FF8100, #1533AD, #00BD39);
+    background: repeating-linear-gradient(45deg,
+    #FF8100 0px, #FF8100 50px,
+    #1533AD 50px, #1533AD 100px,
+    #00BD39 100px, #00BD39 150px);
 }
 
   .footer img {
